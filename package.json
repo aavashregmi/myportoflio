@@ -1,7 +1,7 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "aavash-regmi-identity",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,16 +11,9 @@
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.8",
-    "@react-three/fiber": "^9.7.0",
-    "@react-three/postprocessing": "^3.1.1",
-    "@supabase/supabase-js": "^2.57.4",
-    "@types/three": "^0.185.4",
     "lucide-react": "^0.446.0",
-    "postprocessing": "^6.39.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "three": "^0.185.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

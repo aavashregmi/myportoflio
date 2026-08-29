@@ -1,5 +1,5 @@
-import { lazy, Suspense, useRef } from 'react';
-const IdentityScene = lazy(() => import('@/three/IdentityScene').then((m) => ({ default: m.IdentityScene })));
+import { useRef } from 'react';
+import { ParticleBackground } from '@/components/ParticleBackground';
 import { Nav } from '@/components/Nav';
 import { Hero } from '@/components/sections/Hero';
 import { Origin } from '@/components/sections/Origin';
@@ -36,9 +36,7 @@ function App() {
         <span itemProp="hasOccupation">Student</span>
       </article>
 
-      <Suspense fallback={null}>
-        <IdentityScene scrollProgress={scrollProgress} />
-      </Suspense>
+      <ParticleBackground />
       <GrainLayer />
       <CursorGlow />
       <ScrollProgress progress={scrollProgress} />
