@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aavashregmi.com.np/sitemap.xml
